@@ -8,5 +8,8 @@ in
     displayname
     ;
 
+  git.name = displayname;
+  git.email = "tom.weelborg@gmail.com";
+
   vpnDir = /home/${username}/vpn;
 }
