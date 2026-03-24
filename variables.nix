@@ -11,6 +11,8 @@ in
   git.name = displayname;
   git.email = "tom.weelborg@gmail.com";
 
+  githubAccessToken = "";
+
   privateVariablesPath = /etc/nixos/dotfiles/variables.private.nix;
   vpnDir = /home/${username}/vpn;
 }
