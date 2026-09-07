@@ -110,6 +110,9 @@
         git-email = {
           sopsFile = ./secrets.yaml;
         };
+        makemkv-token = {
+          sopsFile = ../secrets.yaml;
+        };
       };
     })
   ];
