@@ -77,7 +77,10 @@
     (userModules.programs.cli.cryptography.ssh-to-age {})
     (userModules.programs.cli.development.docker {})
     (userModules.programs.gui.development.virtualbox {})
-    (userModules.programs.gui.media.makemkv {})
+    (userModules.programs.gui.media.makemkv {
+      package = pkgs.makemkv-2026-08;
+      tokenPath = config.sops.secrets.makemkv-token.path;
+    })
     (userModules.system.hardware.razer {})
     (userModules.system.sops-config {
       secrets = {
